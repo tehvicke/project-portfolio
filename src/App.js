@@ -4,8 +4,9 @@ import './App.css';
 function App() {
   return (
     <div className="portfolio-app">
-      <div className="temporary-info">
+      <img src ="viktor.png" alt="Portrait of Viktor" className="portrait"/>
         <h1>Viktor Dahl</h1>
+      <div className="info-box">
         <h3>Software Engineer | Mgmt Consultant | Freelancer | Dreamer | Geek | M.Sc. </h3>
         <div className="links">
           <a href="https://github.com/tehvicke" target="_blank">

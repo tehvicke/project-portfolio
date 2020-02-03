@@ -43,7 +43,17 @@
   text-align: center;
 }
 
-.temporary-info {
+.portrait {
+  border-radius: 50%;
+  border-width: 0px;
+  border-color: #bae1ff;
+  border-style: solid;
+  height: auto;
+  width: 256px;
+  margin-bottom: 20px;
+}
+
+.info-box {
   padding: 20px;
   margin: 0 10px 0 10px;
   background-color: #34a1f5;
