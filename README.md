@@ -1,89 +1,68 @@
-# Your Very Own Portfolio 🔥
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-It's about time you show the world the wonders that you're now capable of building – it's time to build your portfolio. The portfolio should feature projects you have built so far and some information about yourself and your background, and - if you'd like - your contact details.
+## Available Scripts
 
-The portfolio will be a great test of your HTML and CSS skills but we will also take the opporitunity to get started with accessibility and build websites for everyone – something every frontender should know. Don't save until last day to do the testing – it's very much the task of this project and will take some time. 
+In the project directory, you can run:
 
-![Imgur](https://i.imgur.com/StoB2JK.jpg)
+### `npm start`
 
-The portfolio should contain: 
-* A picture of you.
-* A presentation of the tech skills that you have. 
-* A presentation of some thoughts that you have around code. 
-* A presentation of your projects linking to your Github. 
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### Do you want our help in getting a job? 
-If you are taking the full program and plan to let us match you with companies at the end of the program, we want you to use our template for the portfolio. Basically you need to implement the given design to be able to get our help. If you work as a designer and really hate our design you could pitch to us why you would make a better job. But otherwise this design comes from experience of what exactly recruiters look at. 
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-[Access portfolio guidelines and designs.](https://www.notion.so/technigo/Portfolio-Guidelines-f265c218c7e94fc88fd4b8e468d6fc14) 
+### `npm test`
 
-For this weeks project, focus on getting the tech side working well - focus on HTML & CSS and nailing the accessibility and testing. For the matching process at the end of the bootcamp, the content becomes much more important, so this is something that we can add more love to later in the course. Since this is a page that we will use to profile you towards companies, your portfolio will need constant updates with new projects from now on.
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-**If you don't want our help getting interviews**, feel free to build the portfolio anyway you like. Here's some examples. 
+### `npm run build`
 
-* https://york-demo.squarespace.com/
-* http://www.thebeastisback.com/
-* http://bjoernmeier.com/##
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
----
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-## How to get started 💪🏼
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Because this is your portfolio, you will own the repository! On GitHub, create a new repository for yourself to get started. You can initialize it with a README if you'd like - it doesn't really matter. Once you have your repository, clone it onto your computer.
+### `npm run eject`
 
-:warning: Code reviews are difficult without Pull Requests, so you need to make sure that your repository is public and then submit a link to your repo in the hand-in on Canvas. :warning:
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-## Test Your Webpage 🏼✅
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-A big part of this project is to test your page so that it works for all the most used browsers and works well for people with dissabilities. 
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-### 1. Cross-browser testing
-You should make sure that your page is looking and function like you would want in the following web browsers:
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-* Google Chrome
-* Firefox
-* Microsoft Edge
+## Learn More
 
-_If you're on a mac or linux computer, you can use [this tool](https://developer.microsoft.com/en-us/microsoft-edge/tools/remote/) to test your site on Edge.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Follow the [Workflows for cross browser testing](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Introduction) when testing your sites. 
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-### 2. Accessiability testing
+### Code Splitting
 
-The next step is to make sure your webpage works well for people with disabilities. You should follow each step on the [Accessibility testing checklist](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Accessibility) at the bottom of the page and make adjustments for those errors that you find. Feel free to discuss in Slack what you find and how to solve some issues. 
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-If you publish your website, you can use the built in screen reader on your phone for the screen reader test. Google to see how to turn it on for your phone. 
+### Analyzing the Bundle Size
 
-## Requirements 🧪
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-- The page should be built with HTML and CSS (JS if needed)
-- You should use flexbox for layout (you can use CSS grid if you're comfortable with that). 
-- The page should be fully responsive. (mobile, tablet and desktop)
-– The page should look and function the same on Chrome, Firefox, and Edge. 
-– The page should work well for people that uses screen readers and keyboard navigation.
-– The HTML code should validate in an validation tool. 
-- Code follows [Technigo’s code guidelines](https://www.notion.so/technigo/Guidelines-for-how-to-write-good-code-69ffb59eac4e4358a7c5752efb873c4e).
-- Contribute by helping others with this project on Stack Overflow.
-- If selected; demo your solution for your team.
+### Making a Progressive Web App
 
-## How to hand in the code 🎯
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-- Deploy your site to netlify
-- Post the link to the repo and your deployed site in canvas
-- Wait for the code review from your teachers
+### Advanced Configuration
 
-## How to get help 🆘
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-Ask for help and share your knowledge about this project with the 'project-portfolio' tag on [Stack Overflow](https://stackoverflow.com/c/technigo/questions). Talk to your team on Slack and help each other out. Do some research about your problem, you are surely not the first one with this problem, Google is your friend 🙂. And you can of course also book a tech call. 
+### Deployment
 
-## Stretch Goals 🏃‍♂
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-Make sure you've commited and pushed a version of your project before starting with the stretch goals.
+### `npm run build` fails to minify
 
-Optimise your website for sharing on social media using [og:tags.](https://css-tricks.com/essential-meta-tags-social-media/)
-
-Give your portfolio a custom domain and connect to your deployed site. [Read more.](https://docs.netlify.com/domains-https/custom-domains/) 
-
-
-#### 🚨 Don't forget to add, commit and push the changes to GitHub when you're done. 🏁
-
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
