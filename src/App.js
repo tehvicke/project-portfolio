@@ -6,15 +6,16 @@ function App() {
     <div className="portfolio-app">
       <img src ="viktor.png" alt="Portrait of Viktor" className="portrait"/>
         <h1>Viktor Dahl</h1>
+        <h3>Full-stack developer | Ex-Mgmt Consultant | Freelancer | Dreamer | Geek | M.Sc.</h3>
+        <br />
       <div className="info-box">
-        <h3>Software Engineer | Mgmt Consultant | Freelancer | Dreamer | Geek | M.Sc. </h3>
         <div className="links">
           <a href="https://github.com/tehvicke" target="_blank">
             <img src="/icons/GitHub-Mark-Light-64px.png" alt="Github logo"/>
             <p>Github</p>
           </a>
           <a href="https://www.linkedin.com/in/viktordahl/" target="_blank">
-            <img src="/icons/LinkedIn.png" alt="Linkedin logo"/>
+            <img src="/icons/LinkedIn.png" alt="LinkedIn logo"/>
             <p>LinkedIn</p>
           </a>
           <a href="https://www.facebook.com/tehvicke" target="_blank">

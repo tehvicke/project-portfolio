@@ -61,6 +61,7 @@
 
 .links {
   margin-top: 40px;
+  min-width: 400px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
