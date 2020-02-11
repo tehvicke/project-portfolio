@@ -23,13 +23,13 @@
 }
 
 .info-box {
-  padding: 20px;
   margin: 20px 10px 0 10px;
   background-color: #34a1f5;
+  width: 400px;
+  padding: 20px;
 }
 
 .links {
-  min-width: 400px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
