@@ -6,7 +6,7 @@ function App() {
     <div className='portfolio-app'>
       <img src='viktor.png' alt='Portrait of Viktor' className='portrait' />
       <h1>Viktor Dahl</h1>
-      <h3>Full-stack developer | Ex-Mgmt Consultant | Freelancer</h3>
+      <h3>Software developer | Ex-Mgmt Consultant | Freelancer</h3>
       <br />
       <div className='info-box'>
         <div className='links'>
