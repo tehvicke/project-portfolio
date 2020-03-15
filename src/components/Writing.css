@@ -1,0 +1,15 @@
+#medium-widget {
+}
+
+.medium-widget-article__title {
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1rem;
+}
+
+.medium-widget-article__date {
+  color: white;
+  font-size: 12px;
+  font-weight: 300;
+}
