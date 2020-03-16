@@ -26,8 +26,8 @@ const drawRating = rating => {
   const circle = (fill, index) => <div key={index} className={`circle ${fill && 'filled'}`}></div>
   const halfCircle = index => (
     <div key={index} className='circle'>
-      <div className='half-circle-left-outer'>
-        <div className='half-circle-left-inner'></div>
+      <div className='half-circle-outer'>
+        <div className='half-circle-inner'></div>
       </div>
     </div>
   )
@@ -48,7 +48,7 @@ const renderSkills = (skills, showAll) => {
 
   skills.sort((a, b) => b.rating - a.rating)
   return skills.map((skill, index) => {
-    if (!showAll && skill.rating < minRatingToShow) return
+    if (!showAll && skill.rating < minRatingToShow) return null
 
     return (
       <li key={index}>
@@ -63,17 +63,23 @@ const renderSkills = (skills, showAll) => {
 }
 
 export const TechSkills = ({ className }) => {
-  const [showAll, setShowAll] = useState(true)
+  const [showAll, setShowAll] = useState(false)
 
   return (
     <div className={`${className} tech-skills`} onClick={() => setShowAll(!showAll)}>
-      <h4>Tech skills</h4>
+      <h4>Tech skills {showAll ? '- all' : '- main'}</h4>
       <h5>Web</h5>
       <ul>{renderSkills(allSkills.web, showAll)}</ul>
       <h5>Mobile</h5>
       <ul>{renderSkills(allSkills.mobile, showAll)}</ul>
       <h5>Other</h5>
       <ul>{renderSkills(allSkills.other, showAll)}</ul>
+      {showAll && (
+        <p className='legend'>
+          <span className='bold'>L</span>anguage - <span className='bold'>F</span>ramework -
+          <span className='bold'>T</span>echnology
+        </p>
+      )}
     </div>
   )
 }

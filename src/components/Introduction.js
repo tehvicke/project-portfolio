@@ -1,13 +1,15 @@
 import React from 'react'
 import './Introduction.css'
 
+const name = 'Viktor Dahl'
+const oneLiner = 'Software developer | Ex-Mgmt Consultant | Freelancer'
+
 export const Introduction = () => {
   return (
     <div className='intro'>
-      <img src='viktor.png' alt='Portrait of Viktor' className='portrait' />
-      <h1>Viktor Dahl</h1>
-      <h3>Software developer | Ex-Mgmt Consultant | Freelancer</h3>
-      <br />
+      <img src='viktor.png' alt='Portrait' className='portrait' />
+      <h1>{name}</h1>
+      <h2>{oneLiner}</h2>
     </div>
   )
 }

@@ -1,16 +1,40 @@
 .tech-skills li {
   width: 48%;
   display: flex;
-  /* padding: 0 10px 0 10px; */
-
   justify-content: space-between;
   align-items: center;
+}
+
+.tech-skills {
+  display: flex;
+  flex-direction: column;
 }
 
 .tech-skills ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.tech-skills p {
+  padding-left: 5px;
+  display: inline;
+}
+
+.tech-skills .category {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.tech-skills .legend {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 8px;
+  color: #a1d5fc;
+}
+.bold {
+  font-weight: 700;
+  color: white;
 }
 
 .circle {
@@ -28,27 +52,7 @@
   background-color: #eff6fc;
 }
 
-.tech-skills p {
-  padding-left: 5px;
-  display: inline;
-}
-
-.tech-skills .category {
-  font-size: 10px;
-  font-weight: 700;
-}
-
-.half-circle-holder {
-  width: 8px;
-  height: 8px;
-  margin: 1px;
-  display: inline-block;
-  border-width: 1px;
-  position: relative;
-  background-color: red;
-}
-
-.half-circle-left-outer {
+.half-circle-outer {
   width: 4px;
   height: 8px;
   position: absolute;
@@ -56,13 +60,10 @@
   left: -1px;
   overflow: hidden;
 }
-.half-circle-left-inner {
+.half-circle-inner {
   width: 8px;
   height: 8px;
   border-radius: 100%;
   border-width: 1px;
   background-color: #eff6fc;
-  /* top: -1px;
-  left: -1px; */
-  position: absolute;
 }

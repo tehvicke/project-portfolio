@@ -1,8 +1,14 @@
 .intro {
-  margin-top: 5%;
+  margin-top: 50px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.portrait {
+  border-radius: 50%;
+  height: auto;
+  width: 300px;
 }

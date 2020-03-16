@@ -1,0 +1,11 @@
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.links img {
+  height: 20px;
+  width: auto;
+}
