@@ -16,6 +16,12 @@
   max-width: 480px;
 }
 
+@media (max-width: 490px) {
+  .info-box {
+    margin-left: 0;
+  }
+}
+
 @media (min-width: 1000px) {
   .info-boxes {
     width: 1000px;
