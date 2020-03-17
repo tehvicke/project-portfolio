@@ -5,7 +5,7 @@
 }
 
 .info-boxes {
-  width: 500px;
+  min-width: 375px;
 }
 
 .info-box {
