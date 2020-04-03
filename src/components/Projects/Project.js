@@ -16,9 +16,10 @@ const getIconUrl = type => {
 }
 
 const getLogoUrl = links => {
-  return links.filter(link => {
+  const result = links.filter(link => {
     return link.type === 'demo' || link.type === 'app-store'
-  })[0].url
+  })
+  if (result.length > 0) return result[0].url
 }
 export const Project = ({ data }) => {
   return (
@@ -67,7 +68,7 @@ export const Project = ({ data }) => {
               </div>
             </div>
             <div className='client'>
-              {/* <h6>Client</h6> */}
+              <h6>Client</h6>
               <p>{data.client}</p>
             </div>
           </div>

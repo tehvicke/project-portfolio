@@ -9,7 +9,7 @@ export const Projects = () => {
   return (
     <div className='projects-wrapper-outer'>
       <div className='projects-wrapper'>
-        <h4>Projects</h4>
+        <h4>Selected projects</h4>
         {allProjects.map((project, index) => {
           if (project.type === 'minor') {
             return <MinorProject key={index} data={project} />

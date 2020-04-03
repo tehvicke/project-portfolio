@@ -2,7 +2,7 @@
   {
     "name": "Can I Park",
     "type": "highlighted",
-    "date": "2020-03-20",
+    "date": "2020",
     "description": "Can I Park is an app aimed to help drivers in Stockholm to by-pass incomprehensivble parking signs and give the driver a simple answer whether it's allowed to park or not.",
     "icon": "/images/can-i-park/Logo.png",
     "images": [
@@ -28,12 +28,13 @@
       { "type": "github", "text": "Frontend", "url": "https://github.com/tehvicke/can-i-park-app" },
       { "type": "github", "text": "Backend", "url": "https://github.com/tehvicke/can-i-park-here-server" },
       { "type": "app-store", "text": "App Store", "url": "..." }
-    ]
+    ],
+    "client": "Self"
   },
   {
     "name": "Happy Thoughts",
     "type": "highlighted",
-    "date": "2020-01-01",
+    "date": "2020",
     "description": "Happy Thoughts is a messaging app resembling Twitter. It was an assignment as part of my Technigo Bootcamp. I took the opportunity to practice TDD using Jest.",
     "icon": "/images/happy-thoughts/happy-thoughts-logo.png",
     "images": ["/images/happy-thoughts/happy-thoughts.png"],
@@ -47,10 +48,40 @@
     "client": "Technigo"
   },
   {
+    "name": "Project Bomberdude",
+    "type": "normal",
+    "date": "2013",
+    "icon": "/images/bomberdude/logo.png",
+    "images": [
+      "/images/bomberdude/bomberdude1.png",
+      "/images/bomberdude/bomberdude2.png",
+      "/images/bomberdude/bomberdude3.png",
+      "/images/bomberdude/bomberdude4.png"
+    ],
+    "description": "The project was part of a course in Uni I developed with a student colleague. It's dangerously similar to the classic game Bomberman and is played solo or vs another player.",
+    "technology": ["Java", "Eclipse", "Client-server", "UDP"],
+    "links": [{ "type": "github", "text": "Repo", "url": "https://github.com/tehvicke/tddc32-bomberman" }],
+    "client": "LiU"
+  },
+  {
+    "name": "Project Auth",
+    "type": "normal",
+    "date": "2020",
+    "icon": "/images/project-auth.png",
+    "description": "A simple authentication service that hashes and salts the credentials in the backend and sending an auth token to the user.",
+    "images": ["/images/project-auth.png"],
+    "technology": ["React", "Redux", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
+    "links": [
+      { "type": "demo", "text": "Demo", "url": "https://project-auth-nv.netlify.com/" },
+      { "type": "github", "text": "Repo", "url": "https://github.com/tehvicke/project-auth" }
+    ],
+    "client": "Technigo"
+  },
+  {
     "name": "Project Movies",
     "type": "normal",
-    "date": "2019-12-01",
-    "description": "Project Movies leverages the API from themoviedb.org to fetch and display the latest box office movies",
+    "date": "2020",
+    "description": "Project Movies leverages the API from themoviedb.org to fetch and display the latest box office movies, using React Router to link to a details page.",
     "icon": "/images/movies/logo.png",
     "images": ["/images/movies/movies1.png", "/images/movies/movies2.png"],
     "technology": ["React", "React-Router", "HTML", "CSS", "JavaScript"],
@@ -64,27 +95,28 @@
   {
     "name": "Project Music",
     "type": "normal",
-    "date": "2019-12-01",
+    "date": "2020",
     "icon": "/images/music/logo.png",
+    "description": "The project aim was to use data to create a responsive flexbox layout using React.",
     "images": ["/images/music/music1.png", "/images/music/music2.png"],
     "technology": ["React", "HTML", "CSS", "JavaScript"],
     "links": [
-      { "type": "github", "text": "Repo", "url": "https://github.com/tehvicke/project-music-releases" },
-      { "type": "demo", "text": "Demo", "url": "https://project-music-vd.netlify.com/" }
+      { "type": "demo", "text": "Demo", "url": "https://project-music-vd.netlify.com/" },
+      { "type": "github", "text": "Repo", "url": "https://github.com/tehvicke/project-music-releases" }
     ],
-
     "client": "Technigo"
   },
   {
-    "name": "Project Auth",
+    "name": "Project Resto",
     "type": "normal",
-    "date": "2019-12-01",
-    "icon": "/images/movies/logo.png",
-    "images": ["/images/movies/movies1.png", "/images/movies/movies2.png"],
-    "technology": ["HTML", "CSS", "JavaScript", "React", "Redux", "MongoDB", "Express"],
+    "date": "2020",
+    "icon": "/images/resto/logo.png",
+    "description": "The project leverages the external restaurant API Zomato and presents it in an 'Uber eats' style format",
+    "images": ["/images/resto/resto1.png", "/images/resto/resto2.png"],
+    "technology": ["React", "HTML", "CSS", "JavaScript"],
     "links": [
-      { "type": "github", "text": "Repo", "url": "https://github.com/tehvicke/project-auth" },
-      { "type": "demo", "text": "Demo", "url": "https://project-auth-nv.netlify.com/" }
+      { "type": "demo", "text": "Demo", "url": "https://resto-vd.netlify.com/" },
+      { "type": "github", "text": "Repo", "url": "https://github.com/Technigo/project-food-orange-c" }
     ],
     "client": "Technigo"
   }

@@ -36,7 +36,7 @@ h6 {
 }
 
 .project-logo {
-  width: 150px;
+  height: 150px;
   margin-right: 10px;
 }
 
@@ -46,7 +46,7 @@ h6 {
   padding-top: 6px;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: top;
 }
 
 .left-content {
@@ -58,6 +58,9 @@ h6 {
 }
 
 .right-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 40%;
 }
 
