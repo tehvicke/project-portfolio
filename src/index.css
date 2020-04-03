@@ -13,6 +13,7 @@
 
 body {
   background-color: #2698ee;
+  background: linear-gradient(125deg, rgba(6, 119, 207, 1) 0%, rgba(52, 161, 245, 1) 45%, rgba(124, 194, 247, 1) 100%);
 }
 
 p {
