@@ -1,0 +1,91 @@
+[
+  {
+    "name": "Can I Park",
+    "type": "highlighted",
+    "date": "2020-03-20",
+    "description": "Can I Park is an app aimed to help drivers in Stockholm to by-pass incomprehensivble parking signs and give the driver a simple answer whether it's allowed to park or not.",
+    "icon": "/images/can-i-park/Logo.png",
+    "images": [
+      "/images/can-i-park/can-i-park-1.png",
+      "/images/can-i-park/can-i-park-2.png",
+      "/images/can-i-park/can-i-park-3.png",
+      "/images/can-i-park/can-i-park-4.png"
+    ],
+    "technology": [
+      "React Native",
+      "Redux",
+      "CSS",
+      "Mapbox for RN",
+      "Moment",
+      "NodeJS",
+      "Express",
+      "CI - Bitrise",
+      "CI - CircleCI",
+      "JavaScript"
+    ],
+    "techDescription": "The Frontend is written in React Native, optimized for iOS. The  map functionality comes from Mapbox and the relevant data is using Stockholm Stads open Parking API. The backend is a simple Express server using Axios to fetch data from Parking API and forwarding it to the frontend.",
+    "links": [
+      { "type": "github", "text": "Frontend", "url": "https://github.com/tehvicke/can-i-park-app" },
+      { "type": "github", "text": "Backend", "url": "https://github.com/tehvicke/can-i-park-here-server" },
+      { "type": "app-store", "text": "App Store", "url": "..." }
+    ]
+  },
+  {
+    "name": "Happy Thoughts",
+    "type": "highlighted",
+    "date": "2020-01-01",
+    "description": "Happy Thoughts is a messaging app resembling Twitter. It was an assignment as part of my Technigo Bootcamp. I took the opportunity to practice TDD using Jest.",
+    "icon": "/images/happy-thoughts/happy-thoughts-logo.png",
+    "images": ["/images/happy-thoughts/happy-thoughts.png"],
+    "technology": ["React", "NodeJS", "Express", "Mongoose", "Jest", "Supertest", "HTML", "CSS", "JavaScript"],
+    "techDescription": "The Frontend is written in React, HTML and CSS. The backend is an Express server connected to a MongoDB database. The app is hosted at Heroku (backend), Mongo Cloud (backend) and Netlify (frontend).",
+    "links": [
+      { "type": "demo", "text": "Demo", "url": "https://happy-thoughts-vd.netlify.com/" },
+      { "type": "github", "text": "Frontend", "url": "https://github.com/tehvicke/project-happy-thoughts" },
+      { "type": "github", "text": "Backend", "url": "https://github.com/tehvicke/project-happy-thoughts-api" }
+    ],
+    "client": "Technigo"
+  },
+  {
+    "name": "Project Movies",
+    "type": "normal",
+    "date": "2019-12-01",
+    "description": "Project Movies leverages the API from themoviedb.org to fetch and display the latest box office movies",
+    "icon": "/images/movies/logo.png",
+    "images": ["/images/movies/movies1.png", "/images/movies/movies2.png"],
+    "technology": ["React", "React-Router", "HTML", "CSS", "JavaScript"],
+    "links": [
+      { "type": "demo", "text": "Demo", "url": "https://project-movies-vd.netlify.com/" },
+      { "type": "github", "text": "Repo", "url": "https://github.com/tehvicke/project-movies" }
+    ],
+
+    "client": "Technigo"
+  },
+  {
+    "name": "Project Music",
+    "type": "normal",
+    "date": "2019-12-01",
+    "icon": "/images/music/logo.png",
+    "images": ["/images/music/music1.png", "/images/music/music2.png"],
+    "technology": ["React", "HTML", "CSS", "JavaScript"],
+    "links": [
+      { "type": "github", "text": "Repo", "url": "https://github.com/tehvicke/project-music-releases" },
+      { "type": "demo", "text": "Demo", "url": "https://project-music-vd.netlify.com/" }
+    ],
+
+    "client": "Technigo"
+  },
+  {
+    "name": "Project Auth",
+    "type": "normal",
+    "date": "2019-12-01",
+    "icon": "/images/movies/logo.png",
+    "images": ["/images/movies/movies1.png", "/images/movies/movies2.png"],
+    "technology": ["HTML", "CSS", "JavaScript", "React", "Redux", "MongoDB", "Express"],
+    "links": [
+      { "type": "github", "text": "Repo", "url": "https://github.com/tehvicke/project-auth" },
+      { "type": "demo", "text": "Demo", "url": "https://project-auth-nv.netlify.com/" }
+    ],
+    "client": "Technigo"
+  }
+]

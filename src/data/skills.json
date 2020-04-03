@@ -28,12 +28,12 @@
     {
       "category": "framework",
       "name": "Express",
-      "rating": 3
+      "rating": 2.5
     },
     {
       "category": "framework",
       "name": "Jest",
-      "rating": 2
+      "rating": 2.5
     },
     {
       "category": "framework",
@@ -49,18 +49,13 @@
       "category": "technology",
       "name": "Netlify",
       "rating": 2
-    },
-    {
-      "category": "technology",
-      "name": "CircleCI",
-      "rating": 1
     }
   ],
   "mobile": [
     {
       "category": "framework",
       "name": "React Native",
-      "rating": 3
+      "rating": 4
     },
     {
       "category": "framework",
@@ -97,7 +92,7 @@
     {
       "category": "language",
       "name": "Java",
-      "rating": 3
+      "rating": 3.5
     },
     {
       "category": "language",
@@ -122,12 +117,12 @@
     {
       "category": "language",
       "name": "Ruby",
-      "rating": 3
+      "rating": 2
     },
     {
       "category": "framework",
       "name": "Ruby on Rails",
-      "rating": 2
+      "rating": 3
     },
     {
       "category": "technology",
@@ -137,17 +132,12 @@
     {
       "category": "technology",
       "name": "Git",
-      "rating": 3
-    },
-    {
-      "category": "technology",
-      "name": "PostgreSQL",
-      "rating": 3
+      "rating": 2
     },
     {
       "category": "technology",
       "name": "MongoDB",
-      "rating": 2
+      "rating": 3
     },
     {
       "category": "technology",
@@ -163,6 +153,17 @@
       "category": "technology",
       "name": "Svn",
       "rating": 1
+    },
+    { "category": "technology", "name": "Figma", "rating": 1.5 },
+    {
+      "category": "technology",
+      "name": "CI",
+      "rating": 3
+    },
+    {
+      "category": "technology",
+      "name": "PostgreSQL",
+      "rating": 2.5
     }
   ]
 }

@@ -3,7 +3,7 @@ import allSkills from '../data/skills.json'
 import './TechSkills.css'
 
 const maxRating = 5
-const minRatingToShow = 3
+const minRatingToShow = 2.5
 
 const drawCategory = category => {
   let letter
