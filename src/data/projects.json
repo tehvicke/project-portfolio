@@ -83,7 +83,7 @@
     "date": "2020",
     "description": "Project Movies leverages the API from themoviedb.org to fetch and display the latest box office movies, using React Router to link to a details page.",
     "icon": "/images/movies/logo.png",
-    "images": ["/images/movies/movies1.png", "/images/movies/movies2.png"],
+    "images": ["/images/movies/movies1.jpg", "/images/movies/movies2.jpg"],
     "technology": ["React", "React-Router", "HTML", "CSS", "JavaScript"],
     "links": [
       { "type": "demo", "text": "Demo", "url": "https://project-movies-vd.netlify.com/" },
@@ -98,7 +98,7 @@
     "date": "2020",
     "icon": "/images/music/logo.png",
     "description": "The project aim was to use data to create a responsive flexbox layout using React.",
-    "images": ["/images/music/music1.png", "/images/music/music2.png"],
+    "images": ["/images/music/music1.jpg", "/images/music/music2.jpg"],
     "technology": ["React", "HTML", "CSS", "JavaScript"],
     "links": [
       { "type": "demo", "text": "Demo", "url": "https://project-music-vd.netlify.com/" },
@@ -112,7 +112,7 @@
     "date": "2020",
     "icon": "/images/resto/logo.png",
     "description": "The project leverages the external restaurant API Zomato and presents it in an 'Uber eats' style format",
-    "images": ["/images/resto/resto1.png", "/images/resto/resto2.png"],
+    "images": ["/images/resto/resto1.jpg", "/images/resto/resto2.jpg"],
     "technology": ["React", "HTML", "CSS", "JavaScript"],
     "links": [
       { "type": "demo", "text": "Demo", "url": "https://resto-vd.netlify.com/" },
