@@ -3,7 +3,7 @@ import allSkills from '../data/skills.json'
 import './TechSkills.css'
 
 const maxRating = 5
-const minRatingToShow = 3
+const minRatingToShow = 2.5
 
 const drawCategory = category => {
   let letter
@@ -67,14 +67,14 @@ export const TechSkills = ({ className }) => {
 
   return (
     <div className={`${className} tech-skills`} onClick={() => setShowAll(!showAll)}>
-      <h4>Tech skills {showAll ? '- all' : '- main'}</h4>
+      <h4>Tech skills</h4>
       <h5>Web</h5>
       <ul>{renderSkills(allSkills.web, showAll)}</ul>
       <h5>Mobile</h5>
       <ul>{renderSkills(allSkills.mobile, showAll)}</ul>
       <h5>Other</h5>
       <ul>{renderSkills(allSkills.other, showAll)}</ul>
-      {showAll && (
+      {true && (
         <p className='legend'>
           <span className='bold'>L</span>anguage - <span className='bold'>F</span>ramework -
           <span className='bold'>T</span>echnology

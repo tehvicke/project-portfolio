@@ -10,7 +10,7 @@
 
 .info-box {
   margin: 10px;
-  background-color: var(--main-box-color);
+  background-color: #f3f3f3ff;
   padding: 20px;
   width: 100%;
   max-width: 480px;

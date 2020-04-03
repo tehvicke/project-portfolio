@@ -17,7 +17,7 @@ const App = () => {
         <TechSkills className='info-box' />
       </div>
 
-      <Projects />
+      {/* <Projects /> */}
     </div>
   )
 }

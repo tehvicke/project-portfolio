@@ -1,5 +1,5 @@
 .tech-skills li {
-  width: 48%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,6 +8,7 @@
 .tech-skills {
   display: flex;
   flex-direction: column;
+  width: 220px;
 }
 
 .tech-skills ul {
@@ -17,8 +18,15 @@
 }
 
 .tech-skills p {
-  padding-left: 5px;
+  /* padding-left: 5px; */
   display: inline;
+  border-width: 0.05px;
+  /* background-color: rgb(84, 176, 247); */
+  /* border-style: solid; */
+  width: auto;
+  margin: 2px 2px 2px 6px;
+  padding: 1px 4px 1px 4px;
+  height: auto;
 }
 
 .tech-skills .category {
@@ -30,11 +38,11 @@
   font-size: 10px;
   text-align: center;
   margin-top: 8px;
-  color: #a1d5fc;
+  color: #999;
 }
 .bold {
   font-weight: 700;
-  color: white;
+  color: #666;
 }
 
 .circle {
@@ -43,13 +51,13 @@
   margin: 1px;
   border-radius: 50%;
   display: inline-block;
-  border-color: #eff6fc;
+  border-color: #333;
   border-width: 1px;
   border-style: solid;
   position: relative;
 }
 .tech-skills .filled {
-  background-color: #eff6fc;
+  background-color: #333;
 }
 
 .half-circle-outer {
@@ -65,5 +73,5 @@
   height: 8px;
   border-radius: 100%;
   border-width: 1px;
-  background-color: #eff6fc;
+  background-color: #333;
 }
