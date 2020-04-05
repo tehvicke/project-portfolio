@@ -7,21 +7,9 @@ h6 {
 }
 
 .highlighted-project {
-  padding: 10px;
-  margin: 10px;
+  padding-bottom: 10px;
   display: flex;
   flex-direction: column;
-}
-
-.text-wrapper {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-.header-wrapper {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
 }
 
 .project-wrapper {
@@ -35,40 +23,6 @@ h6 {
   border-color: rgb(100, 186, 252);
 }
 
-.project-logo {
-  height: 150px;
-  margin-right: 10px;
-}
-
-.content-wrapper {
-  width: 100%;
-  /* height: 100%; */
-  padding-top: 6px;
-  display: flex;
-  flex-direction: row;
-  align-items: top;
-}
-
-.left-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-  width: 50%;
-}
-
-.right-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 40%;
-}
-
-.technology {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
 .technology p {
   border-width: 0.05px;
   background-color: rgb(84, 176, 247);
@@ -121,4 +75,77 @@ h6 {
 
 .project-links p {
   font-size: 10px;
+}
+
+.technology {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.project-logo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.logo-desktop {
+  display: none;
+}
+
+.logo-mobile {
+  /* display: inline; */
+}
+
+.logo-header-wrapper {
+  display: flex;
+}
+
+.header-wrapper {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media (max-width: 490px) {
+  .info-box {
+    margin-left: 0;
+  }
+  .projects-wrapper-outer {
+    padding: 0;
+  }
+}
+@media (min-width: 1000px) {
+  .content-wrapper {
+    width: 100%;
+    /* height: 100%; */
+    padding-top: 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+  }
+
+  .project-logo {
+    height: 150px;
+  }
+
+  .logo-desktop {
+    display: block;
+  }
+
+  .logo-mobile {
+    display: none;
+  }
+  .left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 50%;
+  }
+  .right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+  }
 }

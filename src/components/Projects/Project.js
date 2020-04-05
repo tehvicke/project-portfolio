@@ -2,7 +2,7 @@ import React from 'react'
 import ModalImage from 'react-modal-image'
 import './Project.css'
 
-const getIconUrl = type => {
+const getIconUrl = (type) => {
   switch (type) {
     case 'github':
       return '/icons/GitHub-Mark-Light-64px.png'
@@ -15,8 +15,8 @@ const getIconUrl = type => {
   }
 }
 
-const getLogoUrl = links => {
-  const result = links.filter(link => {
+const getLogoUrl = (links) => {
+  const result = links.filter((link) => {
     return link.type === 'demo' || link.type === 'app-store'
   })
   if (result.length > 0) return result[0].url
@@ -25,16 +25,23 @@ export const Project = ({ data }) => {
   return (
     <div className='highlighted-project'>
       <div className='project-wrapper'>
-        <div className='logo'>
+        <div className='logo-desktop'>
           <a href={getLogoUrl(data.links)} target='_blank' rel='noopener noreferrer'>
             <img src={data.icon} alt='project logo' className='project-logo' />
           </a>
         </div>
 
         <div className='text-wrapper'>
-          <div className='header-wrapper'>
-            <h3>{data.name}</h3>
-            <p>{data.date}</p>
+          <div className='logo-header-wrapper'>
+            <div className='logo-mobile'>
+              <a href={getLogoUrl(data.links)} target='_blank' rel='noopener noreferrer'>
+                <img src={data.icon} alt='project logo' className='project-logo' />
+              </a>
+            </div>
+            <div className='header-wrapper'>
+              <h3>{data.name}</h3>
+              <p>{data.date}</p>
+            </div>
           </div>
           <div className='content-wrapper'>
             <div className='left-content'>
@@ -43,7 +50,7 @@ export const Project = ({ data }) => {
                 <p>{data.description}</p>
               </div>
               <div className='project-images'>
-                {data.images.map(img => {
+                {data.images.map((img) => {
                   return <ModalImage small={img} large={img} alt='Project image' className='project-image-small' />
                 })}
               </div>
@@ -57,7 +64,7 @@ export const Project = ({ data }) => {
               </div>
 
               <div className='project-links'>
-                {data.links.map(link => {
+                {data.links.map((link) => {
                   return (
                     <a href={link.url} target='_blank' rel='noopener noreferrer'>
                       <img src={getIconUrl(link.type)} alt={link.text} />

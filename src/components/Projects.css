@@ -1,5 +1,6 @@
 .projects-wrapper-outer {
-  width: 100%;
+  /* width: 100%; */
+  max-width: 500px;
   padding: 10px;
 }
 
@@ -10,8 +11,19 @@
   background-color: var(--main-box-color);
 }
 
+@media (max-width: 490px) {
+  .info-box {
+    margin-left: 0;
+  }
+  .projects-wrapper-outer {
+    padding: 0;
+  }
+}
 @media (min-width: 1000px) {
   .projects-wrapper-outer {
-    width: 1000px;
+    max-width: 1000px;
+  }
+
+  .projects-wrapper {
   }
 }
